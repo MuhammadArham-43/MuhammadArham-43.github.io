@@ -4,6 +4,9 @@ description: "MS @ UAlberta | Reinforcement Learning | Machine Learning Engineer
 url: "https://muhammadarham-43.github.io"
 baseurl: ""
 
+paginate: 6
+paginate_path: "/blog/page:num/"
+
 include:
   - _pages
 

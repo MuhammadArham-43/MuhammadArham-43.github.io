@@ -34,6 +34,7 @@ def write_post(item)
     title: "#{title.gsub('"', '\"')}"
     date: #{pub_date.utc.strftime('%Y-%m-%d %H:%M:%S %z')}
     canonical_url: #{link}
+    link: #{link}
     categories: [medium]
     ---
 

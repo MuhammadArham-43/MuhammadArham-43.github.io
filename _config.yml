@@ -16,7 +16,7 @@ author_profile: true
 author:
   name: "Muhammad Arham"
   avatar: "/assets/images/profile-image.jpg"
-  bio: "MS @ UAlberta | Reinforcement Learning"
+  bio: "MS @ UAlberta · Reinforcement Learning"
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"

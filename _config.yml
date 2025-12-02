@@ -4,6 +4,9 @@ description: "MS @ UAlberta | Reinforcement Learning | Machine Learning Engineer
 url: "https://muhammadarham-43.github.io"
 baseurl: ""
 
+include:
+  - _pages
+
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "air"   # clean minimal theme
 markdown: kramdown

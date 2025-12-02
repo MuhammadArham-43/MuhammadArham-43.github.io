@@ -15,7 +15,7 @@ markdown: kramdown
 author_profile: true
 author:
   name: "Muhammad Arham"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/profile-image.jpg"
   bio: "I am a Machine Learning researcher, with experience in Computer Vision, Natural Language Processing (LLMs) and Reinforcement Learning"
   links:
     - label: "LinkedIn"

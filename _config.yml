@@ -27,9 +27,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/MuhammadArham-43"
+    - label: "X"
+      icon: "fab fa-x-twitter"
+      url: "https://x.com/arhamm40182"
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:arhamm40182@gmail.com"
+    - label: "Linktree"
+      icon: "fas fa-link"
+      url: "https://linktr.ee/muhammad.arham"
 
 plugins:
   - jekyll-seo-tag

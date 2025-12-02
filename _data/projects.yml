@@ -1,4 +1,4 @@
-proj:
+projects:
   - image_path: /assets/images/imagelogo.png
     title: "ImagineArt"
     excerpt: "AI Art Generator | 10M+ downloads | 800K+ monthly active users "

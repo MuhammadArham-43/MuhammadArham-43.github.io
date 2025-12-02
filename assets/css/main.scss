@@ -1,0 +1,36 @@
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // Imports your chosen theme skin
+@import "minimal-mistakes"; // Imports the core Minimal Mistakes framework
+
+/* --- START: Custom Project Card Styles --- */
+
+/* Ensures the image container is small and fixed */
+.archive__item--2-col .archive__item-teaser {
+    height: 150px; /* Adjust this height as needed for your images */
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+/* Ensures the image inside the container covers the space without distortion */
+.archive__item--2-col .archive__item-teaser img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* This makes sure the image crops nicely instead of stretching */
+}
+
+/* Style for the whole card/box */
+.archive__item--2-col {
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem; /* Separates the cards visually */
+    transition: box-shadow 0.3s ease;
+    display: flex; /* Ensures image and text stack nicely on mobile */
+    flex-direction: column; 
+    text-decoration: none; /* Removes any default underline from the card link if you made the whole card a link */
+}
+
+.archive__item--2-col:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- END: Custom Project Card Styles --- */

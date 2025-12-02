@@ -1,0 +1,28 @@
+name: Import RSS Blog Posts
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"   # every hour
+  workflow_dispatch:
+
+jobs:
+  rss:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Import RSS
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://medium.com/@arhamm40182,https://www.kdnuggets.com/author/muhammad-arham,https://circleci.com/blog/author/muhammad-arham/"
+          max_post_count: 100
+          commit_message: "Updated blog posts via RSS"
+          
+      - name: Push to GitHub
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Update blog posts" || echo "No changes to commit"
+          git push

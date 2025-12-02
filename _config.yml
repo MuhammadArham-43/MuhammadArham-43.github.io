@@ -4,7 +4,7 @@ description: "MS @ UAlberta | Reinforcement Learning | Machine Learning Engineer
 url: "https://muhammadarham-43.github.io"
 baseurl: ""
 
-theme: minimal-mistakes-jekyll
+theme: mmistakes/minimal-mistakes
 
 minimal_mistakes_skin: "air"   # clean minimal theme
 markdown: kramdown
@@ -25,7 +25,10 @@ author:
       url: "mailto:arhamm40182@gmail.com"
 
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
   - jekyll-include-cache

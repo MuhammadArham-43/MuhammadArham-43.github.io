@@ -15,7 +15,7 @@ jobs:
       - name: Import RSS
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://medium.com/@arhamm40182,https://www.kdnuggets.com/author/muhammad-arham,https://circleci.com/blog/author/muhammad-arham/"
+          feed_list: "https://medium.com/feed/@arhamm40182"
           max_post_count: 100
           commit_message: "Updated blog posts via RSS"
           

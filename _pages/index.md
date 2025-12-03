@@ -9,8 +9,4 @@ I am a graduate student in Computing Science at the University of Alberta, worki
 
 My research interests focus on reinforcement learning, generative ai, and continual learning. I am particularly interested in developing methods for continual learning and decision-making in dynamic environments. I also have experience working on computer vision and NLP systems, with applications in generative AI, RAG pipelines, and multi-modal agent systems.
 
-**Achievements:**
-- CERN Summer Student 2024
-- MITACS Research Scholar 2023
-- Vector Graduate Scholarship Recipient _(withdrawn)_
-- NUST Rector's Gold Medal
+**Achievements:** CERN Summer Student 2024, MITACS Research Scholar 2023, Vector Graduate Scholarship Recipient _(withdrawn)_, NUST Rector's Gold Medal

@@ -14,6 +14,31 @@ footer .powered-by,
   display: none !important;
 }
 
+/* Reduce spacing on index/overview page */
+.page__content p {
+  margin-bottom: 0.75em;
+  line-height: 1.5;
+}
+
+.page__content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Reduce spacing in single layout for overview page */
+.single .page__content {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Reduce author profile spacing on single pages */
+.single .author__avatar {
+  margin-bottom: 0.5em;
+}
+
+.single .author__content {
+  margin-bottom: 0.5em;
+}
+
 /* --- START: Custom Project Card Styles (Projects page) --- */
 
 /* Grid layout for projects page */

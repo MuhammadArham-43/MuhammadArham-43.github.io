@@ -28,7 +28,7 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/MuhammadArham-43"
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
+      icon: "fab fa-google-scholar"
       url: "https://scholar.google.com/citations?user=5c5ntW0AAAAJ&hl=en"
     - label: "X"
       icon: "fab fa-x-twitter"

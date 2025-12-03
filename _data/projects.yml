@@ -1,12 +1,22 @@
 projects:
   - image_path: /assets/images/imaginelogo.png
     title: "ImagineArt"
-    excerpt: "AI Art Generator | 10M+ downloads | 800K+ monthly active users "
+    excerpt: "AI Art Generator developed at Vyro (10M+ downloads, 800K+ MAU)."
+    url: "https://www.imagine.art/"
+  
+  - image_path: /assets/images/reshot.jpg
+    title: "ReShot"
+    excerpt: "Professional headshot generation with AI. Developed at Vyro (5M+ downloads)."
+    url: "https://www.imagine.art/"
+  
+  - image_path: /assets/images/phototune.jpg
+    title: "PhotoTune"
+    excerpt: "AI Photo Enhancer. Developed at Vyro (10M+ downloads, 4.3 rating across 85K+ reviews)."
     url: "https://www.imagine.art/"
   
   - image_path: /assets/images/urdu-llama.jpg
     title: "Urdu-Llama (LARGE Initiative)"
-    excerpt: "LLM for low-resource Urdu language. Recipient of Meta APAC Accelerator Grant (USD 100K)."
+    excerpt: "ow-resource Urdu LLM developed at Traversaal.ai. Recipient of Meta APAC Accelerator Grant (USD 100K)."
     url: "https://arxiv.org/pdf/2510.09051"
 
   - image_path: /assets/images/cern.png

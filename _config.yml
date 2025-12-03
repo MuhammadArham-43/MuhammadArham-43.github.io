@@ -41,7 +41,7 @@ author:
       url: "https://linktr.ee/muhammad.arham"
     - label: "Resume"
       icon: "fas fa-file-pdf"
-      url: "#resume"
+      url: "/assets/pdf/resume.pdf"
 
 plugins:
   - jekyll-seo-tag

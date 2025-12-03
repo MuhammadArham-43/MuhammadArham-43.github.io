@@ -1,6 +1,11 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // Imports your chosen theme skin
 @import "minimal-mistakes"; // Imports the core Minimal Mistakes framework
 
+/* Professional font family */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 /* --- START: Custom Project Card Styles (Projects page) --- */
 
 /* Grid layout for projects page */

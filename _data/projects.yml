@@ -1,4 +1,14 @@
 projects:
+  - image_path: /assets/images/cern.png
+    title: "TICL Optimization at CERN"
+    excerpt: "CUDA and ROCm performance engineering for HL-LHC event reconstruction inside the CMSSW Patatrack framework."
+    url: "https://cds.cern.ch/record/2911079/files/CERNProjectReport___CMSSW.pdf"
+  
+  - image_path: /assets/images/urdu-llama.jpg
+    title: "Urdu-Llama (LARGE Initiative)"
+    excerpt: "ow-resource Urdu LLM developed at Traversaal.ai. Recipient of Meta APAC Accelerator Grant (USD 100K)."
+    url: "https://arxiv.org/pdf/2510.09051"
+
   - image_path: /assets/images/imaginelogo.png
     title: "ImagineArt"
     excerpt: "AI Art Generator developed at Vyro (10M+ downloads, 800K+ MAU)."
@@ -7,19 +17,9 @@ projects:
   - image_path: /assets/images/reshot.jpg
     title: "ReShot"
     excerpt: "Professional headshot generation with AI. Developed at Vyro (5M+ downloads)."
-    url: "https://www.imagine.art/"
+    url: "https://play.google.com/store/apps/details?id=ai.vyro.retake&hl=en_CA"
   
   - image_path: /assets/images/phototune.jpg
     title: "PhotoTune"
     excerpt: "AI Photo Enhancer. Developed at Vyro (10M+ downloads, 4.3 rating across 85K+ reviews)."
-    url: "https://www.imagine.art/"
-  
-  - image_path: /assets/images/urdu-llama.jpg
-    title: "Urdu-Llama (LARGE Initiative)"
-    excerpt: "ow-resource Urdu LLM developed at Traversaal.ai. Recipient of Meta APAC Accelerator Grant (USD 100K)."
-    url: "https://arxiv.org/pdf/2510.09051"
-
-  - image_path: /assets/images/cern.png
-    title: "TICL Optimization at CERN"
-    excerpt: "CUDA and ROCm performance engineering for HL-LHC event reconstruction inside the CMSSW Patatrack framework."
-    url: "https://cds.cern.ch/record/2911079/files/CERNProjectReport___CMSSW.pdf"
+    url: "https://play.google.com/store/apps/details?id=com.vyroai.photoenhancer"
